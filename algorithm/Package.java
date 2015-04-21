@@ -25,12 +25,6 @@ public class Package {
 		int[] p = new int[n];
 		int[][] v = new int[n+1][m+1];
 		for (int i = 0; i < n; i++) {
-			v[i][0] = 0;
-		}
-		for (int i = 0; i < m; i++) {
-			v[0][i] = 0;
-		}
-		for (int i = 0; i < n; i++) {
 			w[i] = cin.nextInt();
 			p[i] = cin.nextInt();
 		}
