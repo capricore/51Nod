@@ -31,6 +31,7 @@ public class SumEqualK {
 		if (flag) {
 			System.out.println("No Solution");
 		}
+		cin.close();
 	}
 
 }

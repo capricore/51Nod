@@ -31,5 +31,6 @@ public class Metrix {
 			re[i][0] = re[i-1][0] + num[i][0];
 		}
 		System.out.println(dp(re,num,n));
+		cin.close();
 	}
 }

@@ -24,5 +24,6 @@ public class Plalindrome {
 			}
 		}
 		System.out.println(re[0]+1);
+		cin.close();
 	}
 }

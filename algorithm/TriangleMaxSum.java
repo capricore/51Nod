@@ -19,5 +19,6 @@ public class TriangleMaxSum {
 			}
 		}
 		System.out.println(num[0][0]);
+		cin.close();
 	}
 }

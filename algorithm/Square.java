@@ -20,5 +20,6 @@ public class Square {
 			}
 		}
 		System.out.println(dp[m-1][n-1]);
+		cin.close();
 	}
 }

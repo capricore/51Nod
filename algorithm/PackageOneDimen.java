@@ -21,6 +21,7 @@ public class PackageOneDimen {
 			}
 		}
 		System.out.println(v[m]);
+		cin.close();
 	}
 
 }

@@ -32,6 +32,7 @@ public class LastNum {
 		int n = cin.nextInt();
 		int a = n % 10;
 		System.out.println(calculate(n, a));
+		cin.close();
 	}
 }
 

@@ -23,5 +23,6 @@ public class ContinuousSum {
 		if (!flag) {
 			System.out.println("No Solution");
 		}
+		cin.close();
 	}
 }

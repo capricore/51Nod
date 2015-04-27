@@ -36,5 +36,6 @@ public class Subsequence {
 		}
 		dp(re,num);
 		System.out.println(re[n]);
+		cin.close();
 	}
 }

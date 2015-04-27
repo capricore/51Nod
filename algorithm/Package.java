@@ -29,5 +29,6 @@ public class Package {
 			p[i] = cin.nextInt();
 		}
 		System.out.println(dp(w, p, n, m, v));
+		cin.close();
 	}
 }

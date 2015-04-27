@@ -6,7 +6,6 @@ public class LIS {
 	
 	static long dp(long[] re, int[] num){
 		long maximun = 0;
-		int flag = 0;
 		long count = 0;
 		for (int i = 0; i < num.length; i++) {
 			long max = 0;
@@ -43,5 +42,6 @@ public class LIS {
 			num[i] = cin.nextInt();
 		}
 		System.out.println(dp(re,num));
+		cin.close();
 	}
 }

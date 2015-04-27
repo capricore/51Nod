@@ -11,5 +11,6 @@ public class LengthOfN {
 			length += Math.log10(i);
 		}
 		System.out.println((int)length);
+		cin.close();
 	}
 }

@@ -12,5 +12,6 @@ public class NumOf0 {
 			n /= 5;
 		}
 		System.out.println(count);
+		cin.close();
 	}
 }

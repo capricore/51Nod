@@ -22,5 +22,6 @@ public class MinDifference {
 			}
 		}
 		System.out.println(Math.abs(total-dp[total/2]*2));
+		cin.close();
 	}
 }

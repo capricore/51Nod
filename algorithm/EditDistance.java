@@ -35,5 +35,6 @@ public class EditDistance {
 			re[0][i] = i;
 		}
 		System.out.println(dp(s,d,re));
+		cin.close();
 	}
 }

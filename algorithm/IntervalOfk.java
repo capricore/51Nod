@@ -62,5 +62,6 @@ public class IntervalOfk {
 		}else {
 			System.out.println(l+" "+r);
 		}
+		cin.close();
 	}
 }
